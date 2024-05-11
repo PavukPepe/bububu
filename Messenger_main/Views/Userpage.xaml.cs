@@ -21,10 +21,10 @@ namespace Messenger_main.Views
     /// </summary>
     public partial class UserPage : Page
     {
-        public UserPage(string ip)
+        public UserPage(string ip, string name)
         {
             InitializeComponent();
-            DataContext = new UserPageViewModel(ip);
+            DataContext = new UserPageViewModel(ip, name);
         }
     }
 }

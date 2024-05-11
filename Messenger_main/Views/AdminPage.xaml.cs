@@ -21,10 +21,10 @@ namespace Messenger_main.Views
     /// </summary>
     public partial class AdminPage : Page
     {
-        public AdminPage(string ip)
+        public AdminPage(string name)
         {
             InitializeComponent();
-            DataContext = new AdminPageViewModel();
+            DataContext = new AdminPageViewModel(name);
         }
     }
 }

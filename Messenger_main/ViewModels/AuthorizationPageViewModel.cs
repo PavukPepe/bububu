@@ -34,14 +34,36 @@ namespace Messenger_main.ViewModels
 
         void newChat()
         {
-            var Curpage = new AdminPage(ip);
+            if (name == null)
+            {
+                MessageBox.Show("Введите значение в поле имени");
+                return;
+            }
+            var Curpage = new AdminPage(name);
             (Application.Current.MainWindow as MainWindow).vm.curpage = Curpage;
         }
 
         void connectTo()
         {
-            var Curpage = new UserPage(ip);
-            (Application.Current.MainWindow as MainWindow).vm.curpage = Curpage;
+            if (ip == null)
+            {
+                MessageBox.Show("Введите значение в поле IP адреса");
+                return;
+            }
+            if (name == null)
+            {
+                MessageBox.Show("Введите значение в поле имени");
+                return;
+            }
+            try
+            {
+                var Curpage = new UserPage(ip, name);
+                (Application.Current.MainWindow as MainWindow).vm.curpage = Curpage;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Некоррекный IP! " + ex.Message);
+            }
         }
     }
 }
