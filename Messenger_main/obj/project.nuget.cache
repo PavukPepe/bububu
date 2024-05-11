@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "2/BUhzeFIGLtucJIw0T69H+M3yMTJ9pnhT8LBxAI7cMCVBfRZSsYBrIfHioyoTPbCs5wOnwEvOPrZWFqy74ODg==",
+  "dgSpecHash": "oF4qaZMThCc9KQp9nuduRmZlDTj2Wm4gGLwpfatI7ZBZcKlUC2NZMXZeU0JR5yxrINgxYc6MrOI5wl3pPKwweQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\serge\\source\\repos\\Messenger_main\\Messenger_main\\Messenger_main.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\serge\\.nuget\\packages\\materialdesigncolors\\3.0.0\\materialdesigncolors.3.0.0.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\materialdesignthemes\\5.0.0\\materialdesignthemes.5.0.0.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша C:\\Users\\serge\\source\\repos\\Messenger_main\\Messenger_main\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -25,3 +25,9 @@ C:\Users\serge\source\repos\Messenger_main\Messenger_main\obj\Debug\net8.0-windo
 C:\Users\serge\source\repos\Messenger_main\Messenger_main\obj\Debug\net8.0-windows\Messenger_main.genruntimeconfig.cache
 C:\Users\serge\source\repos\Messenger_main\Messenger_main\obj\Debug\net8.0-windows\ref\Messenger_main.dll
 C:\Users\serge\source\repos\Messenger_main\Messenger_main\obj\Debug\net8.0-windows\Messenger_main.sourcelink.json
+C:\Users\serge\source\repos\Messenger_main\Messenger_main\obj\Debug\net8.0-windows\Messenger_main.csproj.AssemblyReference.cache
+C:\Users\serge\source\repos\Messenger_main\Messenger_main\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\serge\source\repos\Messenger_main\Messenger_main\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\serge\source\repos\Messenger_main\Messenger_main\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\serge\source\repos\Messenger_main\Messenger_main\obj\Debug\net8.0-windows\App.baml
+C:\Users\serge\source\repos\Messenger_main\Messenger_main\obj\Debug\net8.0-windows\Messenger_main.csproj.CopyComplete

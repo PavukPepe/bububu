@@ -1,0 +1,281 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\views\\userpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\views\\userpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\views\\authorizationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\views\\authorizationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\views\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\views\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\views\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\views\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\viewmodels\\userpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\viewmodels\\userpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\views\\userpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\views\\userpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\viewmodels\\adminpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\viewmodels\\adminpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\views\\authorizationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\views\\authorizationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\viewmodels\\helpers\\bindinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\viewmodels\\helpers\\bindinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\viewmodels\\helpers\\commandhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\viewmodels\\helpers\\commandhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|c:\\users\\savin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kamni44\\messenger_main\\viewmodels\\authorizationpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D3B861-7A0D-4228-AB11-50F656923F5C}|Messenger_main\\Messenger_main.csproj|solutionrelative:messenger_main\\viewmodels\\authorizationpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 262,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\AdminPage.xaml.cs",
+              "RelativeDocumentMoniker": "Messenger_main\\Views\\AdminPage.xaml.cs",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\AdminPage.xaml.cs",
+              "RelativeToolTip": "Messenger_main\\Views\\AdminPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:46:07.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\ViewModels\\AdminPageViewModel.cs",
+              "RelativeDocumentMoniker": "Messenger_main\\ViewModels\\AdminPageViewModel.cs",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\ViewModels\\AdminPageViewModel.cs",
+              "RelativeToolTip": "Messenger_main\\ViewModels\\AdminPageViewModel.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAswC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:46:07.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "Messenger_main\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "Messenger_main\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:46:07.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthorizationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\AuthorizationPage.xaml.cs",
+              "RelativeDocumentMoniker": "Messenger_main\\Views\\AuthorizationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\AuthorizationPage.xaml.cs",
+              "RelativeToolTip": "Messenger_main\\Views\\AuthorizationPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:46:07.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Userpage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\Userpage.xaml.cs",
+              "RelativeDocumentMoniker": "Messenger_main\\Views\\Userpage.xaml.cs",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\Userpage.xaml.cs",
+              "RelativeToolTip": "Messenger_main\\Views\\Userpage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:46:07.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Messenger_main\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Messenger_main\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:46:07.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserPage.xaml",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\UserPage.xaml",
+              "RelativeDocumentMoniker": "Messenger_main\\Views\\UserPage.xaml",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\UserPage.xaml",
+              "RelativeToolTip": "Messenger_main\\Views\\UserPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-11T11:46:07.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\AdminPage.xaml",
+              "RelativeDocumentMoniker": "Messenger_main\\Views\\AdminPage.xaml",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\AdminPage.xaml",
+              "RelativeToolTip": "Messenger_main\\Views\\AdminPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-11T11:46:07.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\ViewModels\\UserPageViewModel.cs",
+              "RelativeDocumentMoniker": "Messenger_main\\ViewModels\\UserPageViewModel.cs",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\ViewModels\\UserPageViewModel.cs",
+              "RelativeToolTip": "Messenger_main\\ViewModels\\UserPageViewModel.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAUwDoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:46:07.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthorizationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\AuthorizationPage.xaml",
+              "RelativeDocumentMoniker": "Messenger_main\\Views\\AuthorizationPage.xaml",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\AuthorizationPage.xaml",
+              "RelativeToolTip": "Messenger_main\\Views\\AuthorizationPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-11T11:46:07.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Messenger_main\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Messenger_main\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-11T11:46:07.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BindingHelper.cs",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\ViewModels\\Helpers\\BindingHelper.cs",
+              "RelativeDocumentMoniker": "Messenger_main\\ViewModels\\Helpers\\BindingHelper.cs",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\ViewModels\\Helpers\\BindingHelper.cs",
+              "RelativeToolTip": "Messenger_main\\ViewModels\\Helpers\\BindingHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:46:07.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CommandHelper.cs",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\ViewModels\\Helpers\\CommandHelper.cs",
+              "RelativeDocumentMoniker": "Messenger_main\\ViewModels\\Helpers\\CommandHelper.cs",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\ViewModels\\Helpers\\CommandHelper.cs",
+              "RelativeToolTip": "Messenger_main\\ViewModels\\Helpers\\CommandHelper.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:46:07.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthorizationPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\ViewModels\\AuthorizationPageViewModel.cs",
+              "RelativeDocumentMoniker": "Messenger_main\\ViewModels\\AuthorizationPageViewModel.cs",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\ViewModels\\AuthorizationPageViewModel.cs",
+              "RelativeToolTip": "Messenger_main\\ViewModels\\AuthorizationPageViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:46:07.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Messenger_main\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\Models\\UserModel.cs",
+              "RelativeToolTip": "Messenger_main\\Models\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:46:07.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\App.xaml",
+              "RelativeDocumentMoniker": "Messenger_main\\App.xaml",
+              "ToolTip": "C:\\Users\\savin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Kamni44\\Messenger_main\\App.xaml",
+              "RelativeToolTip": "Messenger_main\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-11T11:46:07.956Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
