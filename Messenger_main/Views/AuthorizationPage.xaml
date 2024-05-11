@@ -9,6 +9,22 @@
       Title="Authorization">
 
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35px" Text="Добро пожаловать в супер-пупер чат!1!!11!!"/>
+        <TextBlock Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Введите свое имя пользователя" FontSize="25px"/>
+        <TextBox Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="500" Height="25"/>
+        <Button Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="500" Height="50" Content="Я хочу создать новый супер-пупер чат" FontSize="25px" Command="{Binding newbut}"/>
+        <Button Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="500" Height="50" Content="Я хочу подключиться к супер-пупер чату" FontSize="25px" Command="{Binding conbut}"/>
+        <TextBlock Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Введите IP адрес чата" FontSize="25px"/>
+        <TextBox Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Width="500" Height="25"/>
     </Grid>
 </Page>

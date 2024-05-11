@@ -22,8 +22,8 @@ namespace Messenger_main.ViewModels
             set { IP = value; }
         }
 
-        public CommandHelper newbut;
-        public CommandHelper conbut;
+        public CommandHelper newbut { get; set; }
+        public CommandHelper conbut { get; set; }
 
 
         public AuthorizationPageViewModel()
@@ -34,13 +34,13 @@ namespace Messenger_main.ViewModels
 
         void newChat()
         {
-            var Curpage = new UserPage(ip);
+            var Curpage = new AdminPage(ip);
             (Application.Current.MainWindow as MainWindow).vm.curpage = Curpage;
         }
 
         void connectTo()
         {
-            var Curpage = new AdminPage(ip);
+            var Curpage = new UserPage(ip);
             (Application.Current.MainWindow as MainWindow).vm.curpage = Curpage;
         }
     }

@@ -18,7 +18,15 @@ namespace Messenger_main.ViewModels
 		public Page curpage
 		{
 			get { return Curpage; }
-			set { Curpage = value; }
+			set { Curpage = value;
+				OnPropertyChanged();
+			}
 		}
+
+		public MainWindowViewModel()
+		{
+			curpage = new AuthorizationPage();
+		}
+
 	}
 }
