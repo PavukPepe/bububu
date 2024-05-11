@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Messenger_main.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,10 @@ namespace Messenger_main.Views
     /// </summary>
     public partial class AdminPage : Page
     {
-        public AdminPage()
+        public AdminPage(string ip)
         {
             InitializeComponent();
+            DataContext = new AdminPageViewModel();
         }
     }
 }

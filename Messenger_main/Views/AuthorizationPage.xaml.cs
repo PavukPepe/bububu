@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Messenger_main.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace Messenger_main.Views
         public AuthorizationPage()
         {
             InitializeComponent();
+            DataContext = new AuthorizationPageViewModel();
         }
     }
 }

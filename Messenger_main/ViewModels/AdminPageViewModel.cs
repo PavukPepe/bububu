@@ -44,7 +44,6 @@ namespace Messenger_main.ViewModels
                 await client.ReceiveAsync(bytes, SocketFlags.None);
                 string message = Encoding.UTF8.GetString(bytes);
 
-                /*имялистбокса.Items.Add($"[Сообщение от {client.RemoteEndPoint}]: {message}");*/
 
                 foreach (var item in clients)
                 {

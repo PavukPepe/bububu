@@ -13,7 +13,12 @@ namespace Messenger_main.ViewModels
    
 	internal class MainWindowViewModel : BindingHelper
     {
-        public Page Curpage { get; set; } = new AuthorizationPage();
+		private Page Curpage;
 
-    }
+		public Page curpage
+		{
+			get { return Curpage; }
+			set { Curpage = value; }
+		}
+	}
 }

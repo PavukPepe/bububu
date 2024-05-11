@@ -12,14 +12,6 @@ namespace Messenger_main.ViewModels
 {
     internal class UserPageViewModel : BindingHelper
     {
-        private string IP;
-
-        public string ip
-        {
-            get { return IP; }
-            set { IP = value; }
-        }
-
         private string Messege;
 
         public string message
@@ -29,12 +21,11 @@ namespace Messenger_main.ViewModels
         }
 
         Socket socket;
-
         public CommandHelper send { get; set; }
         public CommandHelper exit { get; set; }
 
         public List<string> messages { get; set; } = new List<string>();
-        public UserPageViewModel()
+        public UserPageViewModel(string ip)
         {
             socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             send = new CommandHelper(_ => Send());
@@ -43,7 +34,7 @@ namespace Messenger_main.ViewModels
             RecieveMessage();
         }
 
-        private async void SendMessage(string message)
+        private async Task SendMessage(string message)
         {
             var bytes = Encoding.UTF8.GetBytes(message);
             await socket.SendAsync(bytes, SocketFlags.None);
@@ -56,6 +47,7 @@ namespace Messenger_main.ViewModels
                 byte[] bytes = new byte[65535];
                 await socket.ReceiveAsync(bytes, SocketFlags.None);
                 string mes = Encoding.UTF8.GetString(bytes);
+
                 messages.Add(mes);
             }
         }

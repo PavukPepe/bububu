@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Messenger_main.ViewModels;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,9 +17,11 @@ namespace Messenger_main
     /// </summary>
     public partial class MainWindow : Window
     {
+        internal MainWindowViewModel vm = new MainWindowViewModel();
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = vm;
         }
     }
 }
