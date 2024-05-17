@@ -19,9 +19,7 @@
             <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
         <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Пользователи:" FontSize="25px"/>
-        <WrapPanel Grid.Row="1" Grid.Column="0" >
-
-        </WrapPanel>
+        <ListBox Grid.Row="1" ItemsSource="{Binding users, Mode=TwoWay}"></ListBox>
         <ListBox Grid.Row="1" Grid.Column="1" ItemsSource="{Binding messages}"/>
         <Button Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Content="     Выйти  " FontSize="14px" Command="{Binding exit}"/>
         <TextBox Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="450" Text="{Binding message, Mode=TwoWay}"/>

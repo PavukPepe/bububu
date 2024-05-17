@@ -1,10 +1,12 @@
-﻿using PRACT_LAB_5.ViewModels.Helpers;
+﻿using Messenger_main.Views;
+using PRACT_LAB_5.ViewModels.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Configuration;
 using System.Linq;
 using System.Net.Sockets;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,10 +25,14 @@ namespace Messenger_main.ViewModels
         }
 
         Socket socket;
+        private CancellationTokenSource stoptalking;
+
         public CommandHelper send { get; set; }
         public CommandHelper exit { get; set; }
 
         private ObservableCollection<string> Messeges = new ObservableCollection<string>();
+
+
 
         public ObservableCollection<string> messages
         {
@@ -36,33 +42,63 @@ namespace Messenger_main.ViewModels
             }
         }
 
+        private ObservableCollection<string> Users = new ObservableCollection<string>();
+
+        public ObservableCollection<string> users
+        {
+            get { return Users; }
+            set
+            {
+                Users = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private string name;
+
         public UserPageViewModel(string ip, string name)
         {
             socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            stoptalking = new CancellationTokenSource();
+
             send = new CommandHelper(_ => Send());
             exit = new CommandHelper(_ => Exit());
             socket.Connect(ip, 6464);
-            SendMessage($"@{name}@{ip}");
-            RecieveMessage();
+            this.name = name;
+
+            SendMessage($"@{name}|{ip}");
+            RecieveMessage(stoptalking.Token);
         }
 
         private async Task SendMessage(string message)
         {
-            var bytes = Encoding.UTF8.GetBytes($"{DateTime.Now.ToString("t")} | {message}");
+            var bytes = Encoding.UTF8.GetBytes(message);
             await socket.SendAsync(bytes, SocketFlags.None);
         }
 
-        private async void RecieveMessage()
+        private async void RecieveMessage(CancellationToken token)
         {
-            while(true)
+            while(!token.IsCancellationRequested)
             {
                 try
                 {
                     byte[] bytes = new byte[65535];
                     await socket.ReceiveAsync(bytes, SocketFlags.None);
                     string mes = Encoding.UTF8.GetString(bytes);
-                    messages.Add(mes);
-
+                    if (mes.Contains("@shutup"))
+                    {
+                        stoptalking.Cancel();
+                    }
+                    if (mes == "!!!clear!!!")
+                    {
+                        users = new ObservableCollection<string>();
+                    }
+                    else if (mes.First() == '!')
+                    {
+                        users.Add(mes.Remove('!'));
+                    }
+                    else 
+                        messages.Add(mes);
                 }
                 catch (SocketException e)
                 {
@@ -74,18 +110,19 @@ namespace Messenger_main.ViewModels
             }
         }
 
-        void Send()
-        {
-            if (message == "\\disconnect")
-            {
-                Application.Current?.Shutdown();
-            }
-            SendMessage(message);
-        }
-        
         void Exit()
         {
-            Application.Current?.Shutdown();    
+            SendMessage($"@/disconnect|{name}|");
+            var Curpage = new AuthorizationPage();
+            (Application.Current.MainWindow as MainWindow).vm.curpage = Curpage;
+        }
+
+        void Send()
+        {
+            if (message == "/disconnect")
+                Exit();
+            else
+                SendMessage($"{DateTime.Now.ToString("g")} | {message}");
         }
         
     }

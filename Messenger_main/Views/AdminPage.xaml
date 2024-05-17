@@ -20,11 +20,11 @@
         </Grid.ColumnDefinitions>
         <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Пользователи:" FontSize="25px"/>
         <Button Grid.Row="0" Grid.Column="1" Content="Посмотреть лог чата" FontSize="20px" Command="{Binding showlogs}"/>
-        <ListBox Grid.Row="1" ItemsSource="{Binding users, Mode=TwoWay}"  DisplayMemberPath="name"></ListBox>
+        <ListBox Grid.Row="1" ItemsSource="{Binding users, Mode=TwoWay}"></ListBox>
         <ListBox x:Name ="logs" Grid.Row="1" Grid.Column="1" ItemsSource="{Binding logs, Mode=TwoWay}"        Visibility="{Binding logv, Mode=TwoWay}" Background="Aqua"/>
         <ListBox x:Name="messeges" Grid.Row="1" Grid.Column="1" ItemsSource="{Binding messages, Mode=TwoWay}" Visibility="{Binding mesv, Mode=TwoWay}" Background="Beige"/>
-        <Button Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Content="     Выйти  " FontSize="14px"/>
+        <Button Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Content="     Выйти  " FontSize="14px" Command="{Binding exit}"/>
         <TextBox Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="450" Text="{Binding message, Mode=TwoWay}"/>
-        <Button Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Content="Отправить" FontSize="14px" Command="{Binding send}"/>
+        <Button Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Content="Отправить" IsDefault="True" FontSize="14px" Command="{Binding send}"/>
     </Grid>
 </Page>
